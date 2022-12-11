@@ -1,8 +1,10 @@
+import devices.Car;
+
 public class Main {
     public static void main(String[] args) {
         Human czlek = new Human(1992, new Car("ferrari", "192", 2000));
         Car fiat1 = new Car("Fiat", "fiat1", 150.0);
-        Car fiat2 = new Car("Fiat", "fiat1", 300.0);
+        Car fiat2 = new Car("Fiat", "fiat2", 300.0);
 
         // Zadanie 3 i 4
         // Sprawdzenie czy wypisuje date poprzedniego pobrania wyplaty

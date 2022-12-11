@@ -1,3 +1,5 @@
+import devices.Car;
+
 import java.util.Date;
 import java.time.format.DateTimeFormatter;
 import java.time.LocalDateTime;
@@ -12,6 +14,11 @@ public class Human {
     private LocalDateTime prevSalaryGetDate;
     Human(Integer yearOfBirth, Car myCar){
         this.yearOfBirth = yearOfBirth;
+    }
+
+    public String toString(){
+        return "Name and surname: " + firstName + " " + lastName + " Year of birth: " + yearOfBirth + " Car: "
+                + car + " Pet: " + pet + " Salary:" + salary;
     }
 
     public void setSalary(double newSalary){

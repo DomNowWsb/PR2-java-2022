@@ -11,6 +11,10 @@ public class Animal {
     Boolean isAlive;
     private Double weight;
 
+    public String toString(){
+        return "Name: " + name + " Species: " + species + " Weight: " + weight;
+    }
+
     public Animal(String species){
         this.isAlive = true;
         this.species = species;
